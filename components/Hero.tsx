@@ -98,7 +98,8 @@ export function Hero() {
                 alt="Retrato sereno de cliente em momento de cuidado estético facial na Luméra"
                 fill
                 priority
-                sizes="(max-width: 1024px) 100vw, 420px"
+                quality={90}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 440px"
                 className="object-cover object-center transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
               />

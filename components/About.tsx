@@ -19,7 +19,8 @@ export function About() {
                 src="/images/lumera/ambiente-lumera.webp"
                 alt="Arquitetura de interiores do estúdio Luméra com curvas minerais e balcão em travertino"
                 fill
-                sizes="(max-width: 1024px) 100vw, 600px"
+                quality={88}
+                sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 650px"
                 className="object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
               />
