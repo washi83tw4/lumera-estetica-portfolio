@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import { X, ArrowRight, MessageCircle, Sparkles } from 'lucide-react';
+import { X, ArrowRight, MessageCircle } from 'lucide-react';
 import { useDemoNotice } from '@/components/DemoNoticeModal';
 
 interface MobileMenuProps {

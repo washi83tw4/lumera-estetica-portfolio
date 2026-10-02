@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Menu, Sparkles, MessageCircle } from 'lucide-react';
+import { Menu, Leaf, MessageCircle } from 'lucide-react';
 import { useDemoNotice } from '@/components/DemoNoticeModal';
 import { MobileMenu } from '@/components/MobileMenu';
 
@@ -109,7 +109,7 @@ export function Header() {
               title="Luméra Estética"
               aria-label="Informações sobre a Luméra"
             >
-              <Sparkles className="w-4 h-4 text-on-primary stroke-[1.75]" />
+              <Leaf className="w-4 h-4 text-on-primary stroke-[1.75]" />
             </button>
           </div>
         </div>

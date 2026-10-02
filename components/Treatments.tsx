@@ -186,7 +186,7 @@ export function Treatments() {
                   src="/images/lumera/tratamento-facial.webp"
                   alt="Aplicação delicada de sérum facial botânico com mãos especializadas na Luméra"
                   fill
-                  quality={88}
+                  quality={90}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 60vw, 480px"
                   className="object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"

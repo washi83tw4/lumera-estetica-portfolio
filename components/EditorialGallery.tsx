@@ -56,7 +56,7 @@ export function EditorialGallery() {
                 src="/images/lumera/tratamento-facial.webp"
                 alt="Aplicação manual de cosméticos de alta precisão na pele"
                 fill
-                quality={88}
+                quality={90}
                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 40vw, 540px"
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

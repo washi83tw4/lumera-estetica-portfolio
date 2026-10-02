@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { SlidersHorizontal, SunMedium, Sparkles } from 'lucide-react';
+import { SlidersHorizontal, SunMedium, Leaf } from 'lucide-react';
 
 export function Experience() {
   return (
@@ -89,7 +89,7 @@ export function Experience() {
                       Beleza natural
                     </h3>
                   </div>
-                  <Sparkles className="w-5 h-5 text-secondary stroke-[1.5] shrink-0" />
+                  <Leaf className="w-5 h-5 text-secondary stroke-[1.5] shrink-0" />
                 </div>
                 <p className="font-sans text-[14px] lg:text-[15px] text-on-surface-variant leading-relaxed sm:pl-10">
                   Tratamentos pensados para valorizar características individuais sem excessos. Priorizamos o brilho espontâneo e a regeneração celular sustentável a longo prazo.

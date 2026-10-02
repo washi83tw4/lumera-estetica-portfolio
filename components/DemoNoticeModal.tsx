@@ -1,7 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useCallback, ReactNode } from 'react';
-import { Sparkles, X, ExternalLink, MessageCircle } from 'lucide-react';
+import { Info, X, ExternalLink, MessageCircle } from 'lucide-react';
 import { getWhatsAppUrl, siteConfig } from '@/config/site';
 
 interface DemoContextType {
@@ -64,7 +64,7 @@ export function DemoProvider({ children }: { children: ReactNode }) {
             <div className="flex items-start justify-between gap-4 mb-4">
               <div className="flex items-center gap-2.5">
                 <span className="w-8 h-8 rounded-full bg-secondary/15 flex items-center justify-center text-secondary">
-                  <Sparkles className="w-4 h-4" />
+                  <Info className="w-4 h-4" />
                 </span>
                 <div>
                   <span className="font-label-sm uppercase tracking-[0.2em] text-secondary block text-[10px]">

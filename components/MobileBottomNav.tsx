@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, Flower2, HelpCircle, MessageCircle } from 'lucide-react';
+import { Leaf, Flower2, HelpCircle, MessageCircle } from 'lucide-react';
 
 export function MobileBottomNav() {
   return (
@@ -24,7 +24,7 @@ export function MobileBottomNav() {
           href="#tratamentos"
           className="flex flex-col items-center justify-center w-16 h-11 gap-1 text-on-surface-variant hover:text-primary transition-colors"
         >
-          <Sparkles className="w-[18px] h-[18px] stroke-[1.75]" />
+          <Leaf className="w-[18px] h-[18px] stroke-[1.75]" />
           <span className="font-sans text-[10px] uppercase tracking-wider font-semibold">
             Rituais
           </span>
