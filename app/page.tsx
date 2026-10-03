@@ -6,6 +6,7 @@ import { About } from '@/components/About';
 import { Experience } from '@/components/Experience';
 import { EditorialGallery } from '@/components/EditorialGallery';
 import { FAQ } from '@/components/FAQ';
+import { LocationMap } from '@/components/LocationMap';
 import { FinalCTA } from '@/components/FinalCTA';
 import { Footer } from '@/components/Footer';
 import { MobileBottomNav } from '@/components/MobileBottomNav';
@@ -26,13 +27,14 @@ export default function HomePage() {
       <Header />
 
       {/* Main Content Sections */}
-      <main id="main-content" className="w-full pt-16 lg:pt-20 bg-surface">
+      <main id="main-content" className="w-full bg-surface">
         <Hero />
         <Treatments />
         <About />
         <Experience />
         <EditorialGallery />
         <FAQ />
+        <LocationMap />
         <FinalCTA />
       </main>
 

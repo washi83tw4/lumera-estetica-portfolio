@@ -58,19 +58,19 @@ export function DemoProvider({ children }: { children: ReactNode }) {
           onClick={() => setIsOpen(false)}
         >
           <div
-            className="relative w-full max-w-md bg-surface border border-outline-variant/60 shadow-2xl p-6 sm:p-8 animate-in fade-in zoom-in-95 duration-200"
+            className="relative w-full max-w-md bg-[#141311] border border-[#c5a880]/30 shadow-2xl p-6 sm:p-8 animate-in fade-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-4 mb-4">
               <div className="flex items-center gap-2.5">
-                <span className="w-8 h-8 rounded-full bg-secondary/15 flex items-center justify-center text-secondary">
+                <span className="w-8 h-8 rounded-full bg-[#c5a880]/15 flex items-center justify-center text-[#c5a880]">
                   <Info className="w-4 h-4" />
                 </span>
                 <div>
-                  <span className="font-label-sm uppercase tracking-[0.2em] text-secondary block text-[10px]">
+                  <span className="font-sans uppercase tracking-[0.2em] text-[#c5a880] block text-[10px] font-semibold">
                     Aviso do Desenvolvedor
                   </span>
-                  <h3 id="demo-dialog-title" className="font-serif text-lg font-medium text-primary">
+                  <h3 id="demo-dialog-title" className="font-serif text-lg font-medium text-[#f7f4ee]">
                     {content.title}
                   </h3>
                 </div>
@@ -78,24 +78,24 @@ export function DemoProvider({ children }: { children: ReactNode }) {
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
-                className="text-on-surface-variant hover:text-primary p-1 transition-colors"
+                className="text-[#c5b8a9] hover:text-[#f7f4ee] p-1 transition-colors cursor-pointer"
                 aria-label="Fechar aviso"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            <p className="font-sans text-sm text-on-surface-variant leading-relaxed mb-6">
+            <p className="font-sans text-sm text-[#c5b8a9] leading-relaxed mb-6 font-light">
               {content.message}
             </p>
 
-            <div className="p-3 bg-surface-container-low border border-outline-variant/30 text-xs text-on-surface-variant mb-6 space-y-1">
-              <p className="font-medium text-primary flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            <div className="p-3 bg-[#1a1815] border border-[#2a2622] text-xs text-[#c5b8a9] mb-6 space-y-1">
+              <p className="font-medium text-[#f7f4ee] flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#c5a880]"></span>
                 Ambiente de Produção Fictício
               </p>
               <p>
-                Status atual no arquivo <code className="px-1 py-0.5 bg-surface text-primary rounded-none font-mono text-[11px]">config/site.ts</code>: <span className="font-semibold text-secondary">isDemo = true</span>.
+                Status atual no arquivo <code className="px-1 py-0.5 bg-[#0a0908] text-[#c5a880] font-mono text-[11px]">config/site.ts</code>: <span className="font-semibold text-[#c5a880]">isDemo = true</span>.
               </p>
             </div>
 
@@ -103,7 +103,7 @@ export function DemoProvider({ children }: { children: ReactNode }) {
               <button
                 type="button"
                 onClick={() => setIsOpen(false)}
-                className="px-5 py-2.5 bg-primary text-on-primary hover:bg-primary/90 font-sans text-xs uppercase tracking-wider font-medium transition-colors"
+                className="px-5 py-2.5 bg-[#c5a880] hover:bg-[#d4ba94] text-[#0a0908] font-sans text-xs uppercase tracking-wider font-semibold transition-colors cursor-pointer"
               >
                 Entendido
               </button>
